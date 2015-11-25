@@ -371,7 +371,7 @@ console.log( a );	// 2
 
 #### Nested Scopes
 
-When you declare a variable, it is available anywhere in that scope, as well as any lower/inner scopes. For example:
+When you declare a variable, it is available anywhere in that scope, as well as any lower/inner scopes. It would not normally be available in the higher/outer scopes. For example:
 
 ```js
 function foo() {
